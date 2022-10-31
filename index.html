@@ -74,9 +74,15 @@
           background-color: #fff;
           padding: 4px;
         }
-        img{
-          float: center;
-        }
+
+        .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
 
 
       </style>
@@ -93,9 +99,9 @@
         </ul>
 
     </div>
-    <img src="pfp.jpg" alt="image missing">
-    <h2>This is Hayden Bean's Website</h2>
 
+    <h2>This is Hayden Bean's Website</h2>
+    <img class='center' src="pfp.jpg" alt="image missing">
 
   </body>
 
